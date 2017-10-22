@@ -1,0 +1,13 @@
+{
+  "name": "puppetfinland-easyrsa3",
+  "version": "0.1.0",
+  "author": "Puppet-Finland team",
+  "license": "BSD license",
+  "summary": "Setup easyrsa3",
+  "source": "https://github.com/Puppet-Finland/puppet-easyrsa3.git",
+  "project_page": "https://github.com/Puppet-Finland/puppet-easyrsa3",
+  "dependencies": [
+    { "name": "puppetlabs/stdlib", "version_requirement": ">= 4.0.0" },
+    { "name": "puppetlabs/vcsrepo", "version_requirement": ">= 1.5.0" }
+  ]
+}
