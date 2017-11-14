@@ -14,9 +14,12 @@
 # [*manage_config*]
 #   Manage easy-rsa configuration with Puppet. Valid values are true (default) 
 #   and false.
-#
-# The other variables affect easy-rsa's vars file directly and should be
-# self-explanatory.
+# [*key_size*]
+#   Keysize, defaults to 2048.
+# [*ca_expire*]
+#   Number of days before the CA expires. Defaults to 3650 (10 years).
+# [*cert_expire*]
+#   Default expiration time in days for certificates. Defaults to 365 (1 year).
 #
 class easyrsa3
 (
